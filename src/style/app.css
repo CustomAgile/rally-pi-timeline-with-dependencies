@@ -1,0 +1,83 @@
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width:5%;
+}
+
+.x-unselectable {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.x-grid-cell-inner {
+    white-space: nowrap;
+    zoom: 1;
+}
+
+.x-tree-elbow-img, .x-tree-icon {
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    vertical-align: top;
+}
+
+.sch-ganttpanel .x-tree-panel .x-tree-icon-parent, .sch-ganttpanel .x-tree-panel .x-tree-icon-leaf {
+    background: none;
+    width: 0;
+}
+
+.sch-ganttpanel .sch-gantt-label {
+    color: #333 !important;
+}
+
+.sch-gantt-label {
+    color: #999;
+    height: 16px;
+    white-space: nowrap;
+}
+
+.sch-gantt-progress-bar {
+    background: #7971e2 url(/slm/js-lib/ext-gantt/2.2.15/resources/images/transp-1px.png) repeat-x left top;
+    overflow: hidden;
+    height: 100%;
+}
+
+.sch-ganttpanel .sch-timelineview .x-grid-row .x-grid-cell.sch-timetd {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #c6c6c6 !important;
+    border-left: none !important;
+    height: 35px;
+}
+
+td.sch-timetd .x-grid-cell-inner {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    cursor: default;
+    overflow: visible;
+}
+
+.sch-ganttpanel .x-tree-panel .x-grid-body table td {
+    height: 35px;
+}
+
+.dependency-line, .dependency-arrow
+{
+    border-color: green;
+}
+
+.dependency-blocked-line, .dependency-blocked-arrow
+{
+    border-color: red;
+}
+
+.sch-ganttpanel .sch-gantt-parent-task .sch-gantt-task-bar,.sch-ganttpanel .sch-gantt-parent-task .sch-gantt-parenttask-bar,.sch-ganttpanel .sch-gantt-task .sch-gantt-task-bar,.sch-ganttpanel .sch-gantt-task .sch-gantt-parenttask-bar {
+   
+    background-color: gray; 
+}
